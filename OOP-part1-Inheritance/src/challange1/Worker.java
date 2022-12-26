@@ -66,7 +66,7 @@ public class Worker {
 
     public int getAge() {
         int currentYear = 2025;
-        int birthYear = Integer.parseInt(birthDate.substring(8));
+        int birthYear = Integer.parseInt(birthDate.substring(6));
         return currentYear - birthYear;
     }
 
